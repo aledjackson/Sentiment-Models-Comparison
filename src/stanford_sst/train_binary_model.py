@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from model.sst_binary import sst_linear_predictor
+from src.stanford_sst.models.sst_mojii_binary import sst_binary_predictor
 
 SST_PATH = "datasets\stanfordSentimentTreebank\\"
 
@@ -21,7 +21,7 @@ test_outs = f(test_data.values[:,2])
 
 print("building model")
 print("...")
-model = sst_linear_predictor()
+model = sst_binary_predictor()
 print("model built")
 
 print("press enter to begin training")

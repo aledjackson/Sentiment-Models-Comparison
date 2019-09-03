@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-from helper_functions import discrete, constant_distribution, categorize
-from model.sst_fine_grained import sst_fine_predictor
+from src.helper_functions import discrete, constant_distribution, categorize
+from src.stanford_sst.models.sst_moji_fine_grained import sst_fine_predictor
 
 SST_PATH = "datasets\stanfordSentimentTreebank\\"
 
