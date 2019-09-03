@@ -1,0 +1,8 @@
+-e git+https://github.com/bfelbo/deepmoji
+flair==0.4.3
+pandas==0.23.4
+numpy==1.17.1
+matplotlib==3.0.0
+
+# tensorflow		# CPU Version of TensorFlow.
+# tensorflow-gpu	# GPU version of TensorFlow.
