@@ -5,10 +5,6 @@ layers = tf.keras.layers
 
 SAVE_PATH = "keras_model_files\StanfordSST\emoji_to_fine.h5"
 
-hyper_parameters = {
-    "lr" : 0.03
-}
-
 
 class sst_fine_predictor:
     def build_model(self):
